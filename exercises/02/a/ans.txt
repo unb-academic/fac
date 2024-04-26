@@ -1,0 +1,16 @@
+ADD: 11
+SUB: 7
+AND: 0
+OR: 11
+XOR: 11
+MASK: 4
+SLL(4): 144
+SRL(4): 0
+ADD: 19
+SUB: 11
+AND: 4
+OR: 15
+XOR: 11
+MASK: 2
+SLL(2): 60
+SRL(2): 1

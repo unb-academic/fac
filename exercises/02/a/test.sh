@@ -1,0 +1,1 @@
+../../../scripts/test-riscv.sh
