@@ -24,9 +24,13 @@ truncate -s 0 out.txt
 
 RVC="../../../bin/rars.jar"
 
-for file in inputs/*.txt; do
+if [ -d "inputs" ]; then
+  for file in inputs/*.txt; do
+    java -jar $RVC nc code.asm < $file >> out.txt
+  done
+else
   java -jar $RVC nc code.asm | head -n -2 >> out.txt
-done
+fi
 
 output=$(diff out.txt ans.txt)
 
