@@ -1,0 +1,6 @@
+sim
+nao
+Entrada invalida.
+Entrada invalida.
+sim
+nao
