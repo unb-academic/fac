@@ -1,0 +1,7 @@
+Entrada invalida.
+Entrada invalida.
+3
+18
+1
+60
+Entrada invalida.
